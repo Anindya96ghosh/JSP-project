@@ -26,7 +26,7 @@ public class Resume extends HttpServlet {
 		
 		request.setAttribute("Anindya", person);
 		
-		RequestDispatcher rd=request.getRequestDispatcher("person2.jsp");
+		RequestDispatcher rd=request.getRequestDispatcher("Person2.jsp");
 		rd.forward(request, response);
 	}
 
